@@ -4,3 +4,11 @@ Pillow==7.0.0
 pydicom==1.4.1
 requests==2.22.0
 requests-toolbelt==0.9.1
+boto3
+flask
+numpy
+pyyaml
+requests-toolbelt
+SimpleITK
+tensorflow==1.15
+opencv-python

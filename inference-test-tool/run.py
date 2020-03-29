@@ -34,7 +34,7 @@ def upload_study_me(file_path, is_segmentation_model, host, port):
                     'inference_command': 'get-probability-mask' if is_segmentation_model else 'get-bounding-box-2d'}
     
     images = load_image_data(file_path)
-    images = sort_images(images)
+    # images = sort_images(images)
 
     width = 0
     height = 0
