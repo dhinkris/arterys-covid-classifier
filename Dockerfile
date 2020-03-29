@@ -7,6 +7,7 @@ WORKDIR /opt
 
 # Install requirements and module code
 COPY requirements.txt /opt/requirements.txt
+RUN python3.5 -m pip install --upgrade pip
 RUN python3.5 -m pip install -r /opt/requirements.txt
 COPY . /opt/
 

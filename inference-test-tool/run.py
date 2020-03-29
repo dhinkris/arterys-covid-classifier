@@ -101,13 +101,12 @@ def upload_study_me(file_path, is_segmentation_model, host, port):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("file_path", help="Path to dicom directory to upload.")
-    parser.add_argument("-s", "--segmentation_model", default=False, help="If the model's output is a segmentation mask", 
+    parser.add_argument("-f", "--file_path", help="Path to dicom directory to upload.")
+    parser.add_argument("-s", "--segmentation_model", default=False, help="If the model's output is a segmentation mask",
         action='store_true')
     parser.add_argument("--host", default='arterys-inference-sdk-server', help="Host where inference SDK is hosted")
     parser.add_argument("-p", "--port", default='8000', help="Port of inference SDK host")
     args = parser.parse_args()
-    
     return args
 
 if __name__ == '__main__':

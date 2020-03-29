@@ -5,3 +5,5 @@ pydicom
 pyyaml
 requests-toolbelt
 SimpleITK
+tensorflow==1.15
+opencv-python
