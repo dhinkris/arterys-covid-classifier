@@ -45,7 +45,7 @@ def get_empty_response():
     return response_json, []
 
 def get_bounding_box_2d_response(json_input, dicom_instances):
-    base_model = tf.keras.models.load_model('./coviddetector/models/covid19_test_9_9_985_988.h5')
+    base_model = tf.keras.models.load_model('./coviddetector/models_dicom/covid19_dcm_test_9_9_986_988.h5')
     height = 224
     width = 224
     dim = np.zeros((height, width))
@@ -58,12 +58,9 @@ def get_bounding_box_2d_response(json_input, dicom_instances):
     for instances in dicom_instances:
         dcm = pydicom.read_file(instances)
         dataset = dcm.pixel_array
-        dataset=(dataset - np.min(dataset)) / (np.max(dataset) - np.min(dataset))
         img = cv2.resize(dataset, (height, width))
 
-        img = np.stack((img, dim, dim), axis=2)
-
-        prediction = base_model.predict(np.array(np.reshape(img,(1, img.shape[0], img.shape[1], img.shape[2]))))
+        prediction = base_model.predict(np.array(np.reshape(img,(1, img.shape[0], img.shape[1], 1))))
         if np.argmax(prediction, axis=1)==0:
             label='negative'
         elif np.argmax(prediction, axis=1)==1:
@@ -82,40 +79,6 @@ def get_bounding_box_2d_response(json_input, dicom_instances):
     return response_json, []
 
 
-
-
-def get_probability_mask_response(json_input, dicom_fpath_list):
-    response_json = {
-            'protocol_version': '1.0',
-            'parts': [
-                {
-                    'label': 'Mock seg',
-                    'binary_type': 'probability_mask',
-                    'binary_data_shape': {
-                        'timepoints': 1,
-                        'depth': json_input['depth'],
-                        'width': json_input['width'],
-                        'height': json_input['height']
-                    }
-                }
-            ]
-    }
-
-    array_shape = (json_input['depth'], json_input['height'], json_input['width'])
-    
-    # This code produces a mask that grows from the center of the image outwards as the image slices advance
-    mask = numpy.zeros(array_shape, dtype=numpy.uint8)
-    mid_x = int(json_input['width'] / 2)
-    mid_y = int(json_input['height'] / 2)
-    for s in range(json_input['depth']):
-        offset_x = int(s / json_input['depth'] * mid_x)
-        offset_y = int(s / json_input['depth'] * mid_y)
-        indices = numpy.ogrid[mid_y - offset_y : mid_y + offset_y, mid_x - offset_x : mid_x + offset_x]
-        mask[s][tuple(indices)] = 255
-
-    return response_json, [mask]
-
-
 def request_handler(json_input, dicom_instances, input_digest):
     """
     A mock inference model that returns a mask array of ones of size (height * depth, width)
@@ -130,8 +93,6 @@ def request_handler(json_input, dicom_instances, input_digest):
     
     if json_input['inference_command'] == 'get-bounding-box-2d':
         return get_bounding_box_2d_response(json_input, dicom_instances)
-    elif json_input['inference_command'] == 'get-probability-mask':
-        return get_probability_mask_response(json_input, dicom_instances)
     else:
         return get_empty_response()
 

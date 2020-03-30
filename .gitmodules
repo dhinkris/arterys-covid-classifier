@@ -1,0 +1,3 @@
+[submodule "coviddetector"]
+  path = coviddetector
+  url = git@github.com:vk1996/COVID19_DETECTION_FROM_XRAY.git
