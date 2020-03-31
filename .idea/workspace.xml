@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca260d8-4b39-44bf-a30a-fe13e30a7b26" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coviddetector" beforeDir="false" afterPath="$PROJECT_DIR$/coviddetector" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/inference.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000000.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000000.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000001.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000001.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-00000010.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-00000010.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000002.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000002.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000003.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000003.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000004.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000004.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000005.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000005.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000006.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000006.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000007.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000007.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000008.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000008.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-0000009.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-0000009.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000001.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000001.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000002.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000002.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000003.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000003.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000004.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000004.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000005.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000005.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000006.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000006.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000007.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000007.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000008.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000008.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000009.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000009.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000010.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000010.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000011.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000011.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000012.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000012.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000013.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000013.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000014.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000014.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000015.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000015.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000016.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000016.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000017.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000017.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000018.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000018.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000019.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000019.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000020.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000020.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000021.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000021.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000022.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000022.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000023.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000023.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000024.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000024.dcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dcm/image-000025.dcm" beforeDir="false" afterPath="$PROJECT_DIR$/test-dcm/image-000025.dcm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inference-test-tool/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="113" column="82" lean-forward="true" selection-start-line="113" selection-start-column="82" selection-end-line="113" selection-end-column="82" />
+            <state relative-caret-position="432">
+              <caret line="113" column="82" selection-start-line="113" selection-start-column="82" selection-end-line="113" selection-end-column="82" />
               <folding>
                 <element signature="e#0#375#1" />
                 <element signature="e#377#392#0" expanded="true" />
@@ -54,20 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inference-test-tool/requirements.txt">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="88" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -75,7 +104,7 @@
       <file leaf-file-name="mock_server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="598">
               <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#200#216#0" expanded="true" />
@@ -84,7 +113,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitmodules">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -171,6 +209,16 @@
             </path>
             <path>
               <item name="inference-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inference-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="inference-test-tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inference-sdk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inference-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="test-dcm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inference-sdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -221,8 +269,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.73819745" visible="true" weight="0.3213873" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22369339" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.73819745" visible="true" weight="0.3213873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22369339" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -475,24 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inference-test-tool/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="35" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -525,27 +559,6 @@
     <entry file="file://$PROJECT_DIR$/inference-test-tool/send-inference-request.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/inference-test-tool/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="113" column="82" lean-forward="true" selection-start-line="113" selection-start-column="82" selection-end-line="113" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#375#1" />
-            <element signature="e#377#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#200#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -556,6 +569,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="88" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#200#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference-test-tool/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="113" column="82" selection-start-line="113" selection-start-column="82" selection-end-line="113" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#375#1" />
+            <element signature="e#377#392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
