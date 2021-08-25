@@ -10,5 +10,5 @@ numpy
 pyyaml
 requests-toolbelt
 SimpleITK
-tensorflow==1.15
+tensorflow==2.5.1
 opencv-python
