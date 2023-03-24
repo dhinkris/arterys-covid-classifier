@@ -5,6 +5,6 @@ pydicom
 pyyaml
 requests-toolbelt
 SimpleITK
-tensorflow==1.15
+tensorflow==2.11.1
 opencv-python
 Pillow
